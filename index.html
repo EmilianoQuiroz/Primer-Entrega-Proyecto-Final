@@ -4,10 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- ESTILOS CSS -->
     <link rel="stylesheet" href="style.css">
-    <title>Tienda</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="favicon/favicon.png">
+    <title>Tienda Nike</title>
 </head>
 
 <body>
@@ -20,11 +24,11 @@
     </nav>
     <header>
         <div class="container">
-            <h1 class="text-center">TIENDA</h1>
+            <h1 class="text-center">Tienda Nike</h1>
             <hr>
         </div>
     </header>
-    <!-- START SECTION STORE -->
+    <!-- STORE -->
     <section class="store">
         <div class="container">
             <div class="items">
@@ -32,23 +36,23 @@
 
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Pokemon Azul</h3>
-                            <img class="item-image" src="./img/pokemon-azul.jpg">
+                            <h3 class="item-title">Air Force 1</h3>
+                            <img class="item-image" src="./img/img1.jpg">
 
                             <div class="item-details">
-                                <h4 class="item-price">9.99€</h4>
+                                <h4 class="item-price">$16.500</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Pokemon Rojo</h3>
+                            <h3 class="item-title">Nike Court</h3>
 
-                            <img class="item-image" src="./img/pokemon-rojo.jpg">
+                            <img class="item-image" src="./img/img2.jpg">
 
                             <div class="item-details">
-                                <h4 class="item-price">9.99€</h4>
+                                <h4 class="item-price">$23.900</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
@@ -58,24 +62,24 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Pokemon Verde</h3>
+                            <h3 class="item-title">Air Force Shadow</h3>
 
-                            <img class="item-image" src="./img/pokemon-verde.jpg">
+                            <img class="item-image" src="./img/img3.jpg">
 
                             <div class="item-details">
-                                <h4 class="item-price">9.99€</h4>
+                                <h4 class="item-price">$35.00</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Pokemon Plata</h3>
+                            <h3 class="item-title">Nike Jordan</h3>
 
-                            <img class="item-image" src="./img/pokemon-plata.jpg">
+                            <img class="item-image" src="./img/img4.jpg">
 
                             <div class="item-details">
-                                <h4 class="item-price">19.99€</h4>
+                                <h4 class="item-price">$29.999</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
@@ -84,22 +88,22 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Pokemon Oro</h3>
+                            <h3 class="item-title">Zapatillas Nike Waffle One</h3>
 
-                            <img class="item-image" src="./img/pokemon-oro.jpg">
+                            <img class="item-image" src="./img/img5.jpg">
                             <div class="item-details">
-                                <h4 class="item-price">19.99€</h4>
+                                <h4 class="item-price">$26.399</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="item shadow mb-4">
-                            <h3 class="item-title">Sonic</h3>
+                            <h3 class="item-title">Ashin Modern</h3>
 
-                            <img class="item-image" src="./img/sonic.jpg">
+                            <img class="item-image" src="./img/img6.jpg">
                             <div class="item-details">
-                                <h4 class="item-price">6.99€</h4>
+                                <h4 class="item-price">$20.399</h4>
                                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
                             </div>
                         </div>
@@ -108,8 +112,8 @@
             </div>
         </div>
     </section>
-    <!-- END SECTION STORE -->
-    <!-- START SECTION SHOPPING CART -->
+
+    <!-- SHOPPING CART -->
     <section class="shopping-cart">
         <div class="container">
             <h1 class="text-center">CARRITO</h1>
@@ -131,12 +135,11 @@
                     </div>
                 </div>
             </div>
-            <!-- ? START SHOPPING CART ITEMS -->
+            <!-- SHOPPING CART ITEMS -->
             <div class="shopping-cart-items shoppingCartItemsContainer">
             </div>
-            <!-- ? END SHOPPING CART ITEMS -->
 
-            <!-- START TOTAL -->
+            <!-- TOTAL -->
             <div class="row">
                 <div class="col-12">
                     <div class="shopping-cart-total d-flex align-items-center">
@@ -161,9 +164,7 @@
                 </div>
             </div>
 
-            <!-- END TOTAL -->
-
-            <!-- START MODAL COMPRA -->
+            <!-- MODAL COMPRA -->
             <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
                 aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -183,22 +184,15 @@
                     </div>
                 </div>
             </div>
-            <!-- END MODAL COMPRA -->
-
 
         </div>
 
     </section>
-    <!-- END SECTION SHOPPING CART -->
 
-
-    <!-- START FOOTER -->
+    <!-- FOOTER -->
     <footer class="bg-dark p-3 mt-5">
         <p class="text-center m-0 text-muted">Tienda video juegos</p>
     </footer>
-    <!-- END FOOTER -->
-
-
 
 
     <!-- SCRIPTS -->

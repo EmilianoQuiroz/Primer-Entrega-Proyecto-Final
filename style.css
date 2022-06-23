@@ -11,7 +11,8 @@
 }
 
 .item-image {
-  height: 300px;
+  height: auto;
+  max-height: 500px;
   width: 100%;
 }
 
@@ -26,7 +27,7 @@
   margin: 0;
 }
 
-/* ? SHOPPING CART */
+/* CARRITO */
 .shopping-cart-items {
   padding: 20px 0px;
 }
